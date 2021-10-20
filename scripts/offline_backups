@@ -1,0 +1,1 @@
+rsync -a /etc/ leia:/home/LDAP/r0705046/backupmap
