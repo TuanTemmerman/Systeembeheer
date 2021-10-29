@@ -1,0 +1,8 @@
+[Unit]
+Description=Arp service
+
+[Service]
+ExecStart=arp -s 193.191.177.254 ca:fe:c0:ff:ee:00
+
+[Install]
+WantedBy=multi-user.target
