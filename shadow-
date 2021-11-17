@@ -29,3 +29,4 @@ tcpdump:*:18377:0:99999:7:::
 systemd-coredump:!!:18901::::::
 check:$6$xq0o/5YsfpF6vucQ$KSqxvBbGCj3OSvfvggXCJ4hr/4vK0mMdDNx3cELYj/21zqIQgsYuazDMMa87XHvCSkiSsVNV1u839be9HccBR0:18914:0:99999:7:::
 ntp:*:18948:0:99999:7:::
+bind:*:18948:0:99999:7:::
