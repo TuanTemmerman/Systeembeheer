@@ -1,12 +1,10 @@
-ND reverse data file for broadcast zone
-;
-$TTL    604800
+$TTL    300
 @       IN      SOA     tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
                             303         ; Serial
-                         604800         ; Refresh
-                          86400         ; Retry
-                        2419200         ; Expire
-                         604800 )       ; Negative Cache TTL
+                             5M         ; Refresh
+                             5M         ; Retry
+                             5M         ; Expire
+                             5M )       ; Negative Cache TTL
 ;
 @       IN      NS      ns.tuan-temmerman.sb.uclllabs.be.
 @	IN	NS	ns1.uclllabs.be.
