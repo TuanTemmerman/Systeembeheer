@@ -1,6 +1,6 @@
 $TTL    300
 @       IN      SOA     tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
-                            306         ; Serial
+                            308         ; Serial
                              5M         ; Refresh
                              5M         ; Retry
                              5M         ; Expire
