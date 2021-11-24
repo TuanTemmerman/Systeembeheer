@@ -13,7 +13,7 @@ echo "
 
 echo "
 $1	IN	A	193.191.177.213
-" >> /etc/bind/zones/scriptzones/db.b.tuan-temmerman.sb.uclllabs.be
+" >> /etc/bind/zones/db.tuan-temmerman.sb.uclllabs.be
 
-perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/scriptzones/db.b.tuan-temmerman.sb.uclllabs.be
+perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/db.tuan-temmerman.sb.uclllabs.be
 
