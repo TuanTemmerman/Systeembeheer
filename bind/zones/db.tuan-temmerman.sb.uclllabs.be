@@ -1,6 +1,6 @@
 $TTL    300
 @       IN      SOA     tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
-                            313         ; Serial
+                            318         ; Serial
                              5M         ; Refresh
                              5M         ; Retry
                              5M         ; Expire
@@ -17,6 +17,6 @@ www1	IN	A	193.191.177.213
 www2	IN	A	193.191.177.213
 test	IN	A	193.191.177.254
 
-foobar	IN	A	193.191.177.213
-foobar	IN	NS	ns.tuan-temmerman.sb.uclllabs.be
+foobar2	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+foobar2	IN	A	193.191.177.213
 
