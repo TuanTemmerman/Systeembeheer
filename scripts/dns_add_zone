@@ -10,3 +10,9 @@ $TTL    300
 ;
 @	IN	NS	ns.tuan-temmerman.sb.uclllabs.be
 ' > /etc/bind/zones/scriptzones/db.$1.tuan-temmerman.sb.uclllabs.be
+
+echo '
+$1	IN	A	193.191.177.213
+' >> /etc/bind/zones/db.tuan-temmerman.sb.uclllabs.be
+
+
