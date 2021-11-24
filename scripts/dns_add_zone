@@ -13,7 +13,15 @@ echo "
 
 echo "
 $1	IN	A	193.191.177.213
+$1	IN	NS	ns.tuan-temmerman.sb.uclllabs.be
 " >> /etc/bind/zones/db.tuan-temmerman.sb.uclllabs.be
 
 perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/db.tuan-temmerman.sb.uclllabs.be
 
+echo "
+zone \"$1.tuan-temmerman.sb.uclllabs.be\" {
+	type master;
+	file \"/etc/bind/zones/scriptzones/db.$1.tuan-temmerman.sb.uclllabs.be\";};" >> /etc/bind/named.conf.mrt-zones
+
+systemctl reload bind9
+rndc reload
