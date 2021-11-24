@@ -1,6 +1,6 @@
 touch /etc/bind/zones/scriptzones/db.$1.tuan-temmerman.sb.uclllabs.be
-echo '
-$TTL    300
+echo "
+\$TTL    300
 @       IN      SOA	$1.tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
                             300         ; Serial
                              5M         ; Refresh
@@ -9,10 +9,11 @@ $TTL    300
                              5M )       ; Negative Cache TTL
 ;
 @	IN	NS	ns.tuan-temmerman.sb.uclllabs.be
-' > /etc/bind/zones/scriptzones/db.$1.tuan-temmerman.sb.uclllabs.be
+" > /etc/bind/zones/scriptzones/db.$1.tuan-temmerman.sb.uclllabs.be
 
-echo '
+echo "
 $1	IN	A	193.191.177.213
-' >> /etc/bind/zones/db.tuan-temmerman.sb.uclllabs.be
+" >> /etc/bind/zones/scriptzones/db.b.tuan-temmerman.sb.uclllabs.be
 
+perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/scriptzones/db.b.tuan-temmerman.sb.uclllabs.be
 
