@@ -1,1 +1,1 @@
-echo hallo
+touch /etc/bind/zones/scriptzones/db.$1.tuan-temmerman.sb.uclllabs.be
