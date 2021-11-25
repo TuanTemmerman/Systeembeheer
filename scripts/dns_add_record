@@ -1,22 +1,32 @@
+#! /bin/bash
+
 if [ "$1" == "-t" ]; then
-	while getopts "t" opt; do
+	while getopts t: opt; do
 		case ${opt} in
-			t) t=${OPTARG}
+			t) var=${OPTARG}
 			;;
 		esac
 	done
-	if [ "$t" == "A" ]; then
+
+	if [ "$var" == "A" ];
+	then
 		echo "$3	IN	A	$4" >> /etc/bind/zones/scriptzones/db.$5
+		perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/scriptzones/db.$5
 
-	elif [ "$t" == "CNAME" ]; then
+	elif [ "$var" == "CNAME" ];
+	then
 		echo "$3	IN	CNAME	$4" >> /etc/bind/zones/scriptzones/db.$4
+		perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/scriptzones/db.$4
 	
-	elif [ "$t" == "MX" ]; then
+	elif [ "$var" == "MX" ];
+	then
 		echo "@	IN	MX	$3.$5
-		$3	IN	A	$4" >> /etc/bind/zones/scriptzones/db.$5
+$3	IN	A	$4" >> /etc/bind/zones/scriptzones/db.$5
+		perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/scriptzones/db.$5
 	fi
-
 else
-	echo "$1	IN	A	$2" >> /etc/bind/zones/scriptzones/db.$3
+	        echo "$1        IN      A       $2" >> /etc/bind/zones/scriptzones/db.$3
+	        perl -i -pe '/Serial/ && s/(\d+)/$1+1 . $2/e' /etc/bind/zones/scriptzones/db.$3
 fi
 
+rndc reload
