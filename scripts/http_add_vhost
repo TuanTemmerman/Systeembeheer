@@ -18,6 +18,7 @@ touch "/var/www/$1/index.html"
 echo "Welcome $1" > /var/www/$1/index.html
 
 a2ensite $1.conf
+cd /etc/bind/zones/scriptzones
 systemctl reload apache2
 
 else
