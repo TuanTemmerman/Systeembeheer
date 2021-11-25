@@ -23,5 +23,4 @@ zone \"$1.tuan-temmerman.sb.uclllabs.be\" {
 	type master;
 	file \"/etc/bind/zones/scriptzones/db.$1.tuan-temmerman.sb.uclllabs.be\";};" >> /etc/bind/named.conf.mrt-zones
 
-systemctl reload bind9
 rndc reload
