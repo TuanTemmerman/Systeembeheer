@@ -2,6 +2,11 @@
 
 if [ -e "/etc/bind/zones/scriptzones/db.$1" ]; then
 
+mkdir "/var/www/$1"
+touch "/var/www/$1/index.html"
+
+echo "welcome $1" > /var/www/$1/index.html
+
 touch /etc/apache2/sites-available/$1.conf
 
 echo "
@@ -14,13 +19,9 @@ echo "
 	CustomLog "${APACHE_LOG_DIR}"/$1-access.log combined
 </VirtualHost>" > /etc/apache2/sites-available/$1.conf
 
-mkdir "/var/www/$1"
-touch "/var/www/$1/index.html"
-
-echo "welcome $1" > /var/www/$1/index.html
 
 a2ensite $1.conf
-systemctl reload apache2
+systemctl restart apache2
 
 else
 	exit 1
