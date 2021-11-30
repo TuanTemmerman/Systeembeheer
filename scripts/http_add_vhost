@@ -3,7 +3,7 @@
 www="`echo $1 | awk -F . '{print $1}'`"
 subzone="`echo $1 | awk -F . '{print $2}'`"
 
-if [ $subzone != cat /etc/bind/zones/scriptzones/db.$subzone.tuan-temmerman.sb.uclllabs.be | grep -E '[0-9].[0-9].[0-9].[0-9]' | awk '{print $1}']; then
+if [ $www != cat /etc/bind/zones/scriptzones/db.$subzone.tuan-temmerman.sb.uclllabs.be | grep -E '[0-9].[0-9].[0-9].[0-9]' | awk '{print $1}']; then
 	exit 1
 else
 
