@@ -1,6 +1,6 @@
 $TTL    300
 @       IN      SOA     tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
-                            483         ; Serial
+                            501         ; Serial
                              5M         ; Refresh
                              5M         ; Retry
                              5M         ; Expire
@@ -613,4 +613,76 @@ subzoneiem8wu	IN	A	193.191.177.213
 
 subzonelai9do	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
 subzonelai9do	IN	A	193.191.177.213
+
+
+subzonefua2su	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonefua2su	IN	A	193.191.177.213
+
+
+subzoneingu4e	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneingu4e	IN	A	193.191.177.213
+
+
+subzoneang6ei	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneang6ei	IN	A	193.191.177.213
+
+
+subzonelo2jet	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonelo2jet	IN	A	193.191.177.213
+
+
+subzoneoevoh5	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneoevoh5	IN	A	193.191.177.213
+
+
+subzoneeitae0	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeitae0	IN	A	193.191.177.213
+
+
+subzonenah9ka	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonenah9ka	IN	A	193.191.177.213
+
+
+subzonepee2ie	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonepee2ie	IN	A	193.191.177.213
+
+
+subzonekorie6	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonekorie6	IN	A	193.191.177.213
+
+
+subzonenu9lae	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonenu9lae	IN	A	193.191.177.213
+
+
+subzonefai4ut	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonefai4ut	IN	A	193.191.177.213
+
+
+subzoneao3qua	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneao3qua	IN	A	193.191.177.213
+
+
+subzoneahfoh7	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneahfoh7	IN	A	193.191.177.213
+
+
+subzoneloht9n	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneloht9n	IN	A	193.191.177.213
+
+
+subzonenoh2iv	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonenoh2iv	IN	A	193.191.177.213
+
+
+subzoneeel3ah	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeel3ah	IN	A	193.191.177.213
+
+
+subzonexahk1r	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonexahk1r	IN	A	193.191.177.213
+
+
+subzoneootah8	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneootah8	IN	A	193.191.177.213
 

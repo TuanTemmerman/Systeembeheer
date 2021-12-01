@@ -3,13 +3,19 @@
 www="`echo $1 | awk -F . '{print $1}'`"
 subzone="`echo $1 | awk -F . '{print $2}'`"
 
-if [ $www != cat /etc/bind/zones/scriptzones/db.$subzone.tuan-temmerman.sb.uclllabs.be | grep -E '[0-9].[0-9].[0-9].[0-9]' | awk '{print $1}']; then
+check="`cat /etc/bind/zones/scriptzones/db.$subzone.tuan-temmerman.sb.uclllabs.be | grep -E '[0-9].[0-9].[0-9].[0-9]' | awk '{print $1}'`"
+echo "$check 1"
+echo "$subzone 2"
+
+if [ $www != $check ]; then
 	exit 1
 else
+	echo "$1 3"
 
-	if [ -e "/etc/bind/zones/scriptzones/db.$subzone" ]; then
+	if [ -e "/etc/bind/zones/scriptzones/db.$subzone.tuan-temmerman.sb.uclllabs.be" ]; then
 
 		mkdir /var/www/$1
+		echo "werkt dit? $1"
 		touch /var/www/$1/index.html
 
 		echo "welcome $1" > /var/www/$1/index.html
@@ -27,7 +33,7 @@ else
 		</VirtualHost>" > /etc/apache2/sites-available/$1.conf
 
 		a2ensite $1.conf
-		systemctl restart apache2
+		systemctl reload apache2
 
 		else
 		   	exit 1
