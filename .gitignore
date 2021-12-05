@@ -2,3 +2,4 @@ mrt/
 incron.d/
 bind/named.conf.mrt-zones
 bind/zones/scriptzones
+apache2/*
