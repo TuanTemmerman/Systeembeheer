@@ -1,6 +1,6 @@
 $TTL    300
 @       IN      SOA     tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
-                            601         ; Serial
+                            603         ; Serial
                              5M         ; Refresh
                              5M         ; Retry
                              5M         ; Expire
@@ -12,7 +12,9 @@ $TTL    300
 @	IN	NS	ns.lobke-deroover.sb.uclllabs.be.
 @	IN	MX	10	mx.tuan-temmerman.sb.uclllabs.be.
 @	IN	A	193.191.177.213
+@	IN	AAAA	2001:6a8:2880:a077::d5
 ns	IN	A	193.191.177.213
+ns	IN	AAAA	2001:6a8:2880:a077::d5
 www	IN	A	193.191.177.213
 www1	IN	A	193.191.177.213
 www2	IN	A	193.191.177.213
@@ -1083,4 +1085,8 @@ subzoneaeki6a	IN	A	193.191.177.213
 
 subzonejee4ai	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
 subzonejee4ai	IN	A	193.191.177.213
+
+
+subzonequah3x	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonequah3x	IN	A	193.191.177.213
 
