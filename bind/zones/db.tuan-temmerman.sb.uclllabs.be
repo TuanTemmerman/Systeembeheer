@@ -1,6 +1,6 @@
 $TTL    300
 @       IN      SOA     tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
-                            603         ; Serial
+                            696         ; Serial
                              5M         ; Refresh
                              5M         ; Retry
                              5M         ; Expire
@@ -1089,4 +1089,376 @@ subzonejee4ai	IN	A	193.191.177.213
 
 subzonequah3x	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
 subzonequah3x	IN	A	193.191.177.213
+
+
+subzonethai8x	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonethai8x	IN	A	193.191.177.213
+
+
+subzoneiu5ied	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneiu5ied	IN	A	193.191.177.213
+
+
+subzonepah3ch	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonepah3ch	IN	A	193.191.177.213
+
+
+subzoneji8eew	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneji8eew	IN	A	193.191.177.213
+
+
+subzoneiijie3	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneiijie3	IN	A	193.191.177.213
+
+
+subzoneshieg8	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneshieg8	IN	A	193.191.177.213
+
+
+subzonefuoqu3	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonefuoqu3	IN	A	193.191.177.213
+
+
+subzonemee2uc	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonemee2uc	IN	A	193.191.177.213
+
+
+subzonexirie4	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonexirie4	IN	A	193.191.177.213
+
+
+subzoneaej8ji	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneaej8ji	IN	A	193.191.177.213
+
+
+subzonegu9ahk	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonegu9ahk	IN	A	193.191.177.213
+
+
+subzonekooph3	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonekooph3	IN	A	193.191.177.213
+
+
+subzonexaizu0	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonexaizu0	IN	A	193.191.177.213
+
+
+subzonexi7ahm	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonexi7ahm	IN	A	193.191.177.213
+
+
+subzonetidop2	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonetidop2	IN	A	193.191.177.213
+
+
+subzonebaici8	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonebaici8	IN	A	193.191.177.213
+
+
+subzoneeeph8w	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeeph8w	IN	A	193.191.177.213
+
+
+subzoneocai4c	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneocai4c	IN	A	193.191.177.213
+
+
+subzonedi5aem	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonedi5aem	IN	A	193.191.177.213
+
+
+subzoneoov6me	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneoov6me	IN	A	193.191.177.213
+
+
+subzonehu7zee	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonehu7zee	IN	A	193.191.177.213
+
+
+subzoneait2xo	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneait2xo	IN	A	193.191.177.213
+
+
+subzoneeesoo6	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeesoo6	IN	A	193.191.177.213
+
+
+subzonevae3ai	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonevae3ai	IN	A	193.191.177.213
+
+
+subzonequai1k	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonequai1k	IN	A	193.191.177.213
+
+
+subzoneeekae7	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeekae7	IN	A	193.191.177.213
+
+
+subzonedeo2ta	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonedeo2ta	IN	A	193.191.177.213
+
+
+subzonechoo7l	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonechoo7l	IN	A	193.191.177.213
+
+
+subzoneaic4ep	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneaic4ep	IN	A	193.191.177.213
+
+
+subzonehooc7i	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonehooc7i	IN	A	193.191.177.213
+
+
+subzoneahg5av	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneahg5av	IN	A	193.191.177.213
+
+
+subzoneash7oh	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneash7oh	IN	A	193.191.177.213
+
+
+subzonezi0ain	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonezi0ain	IN	A	193.191.177.213
+
+
+subzonesuco8z	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonesuco8z	IN	A	193.191.177.213
+
+
+subzoneash1no	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneash1no	IN	A	193.191.177.213
+
+
+subzonejie1li	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonejie1li	IN	A	193.191.177.213
+
+
+subzoneyeika8	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneyeika8	IN	A	193.191.177.213
+
+
+subzonedoo9no	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonedoo9no	IN	A	193.191.177.213
+
+
+subzoneuej8ok	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneuej8ok	IN	A	193.191.177.213
+
+
+subzonenah6yi	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonenah6yi	IN	A	193.191.177.213
+
+
+subzonexah0ae	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonexah0ae	IN	A	193.191.177.213
+
+
+subzonethae6e	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonethae6e	IN	A	193.191.177.213
+
+
+subzonetishu1	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonetishu1	IN	A	193.191.177.213
+
+
+subzoneahpea8	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneahpea8	IN	A	193.191.177.213
+
+
+subzonega8rih	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonega8rih	IN	A	193.191.177.213
+
+
+subzoneeis0uv	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeis0uv	IN	A	193.191.177.213
+
+
+subzoneait0ai	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneait0ai	IN	A	193.191.177.213
+
+
+subzonekeavi8	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonekeavi8	IN	A	193.191.177.213
+
+
+subzoneaiw2si	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneaiw2si	IN	A	193.191.177.213
+
+
+subzonebain7e	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonebain7e	IN	A	193.191.177.213
+
+
+subzoneaevi2b	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneaevi2b	IN	A	193.191.177.213
+
+
+subzonewae5ee	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonewae5ee	IN	A	193.191.177.213
+
+
+subzoneing8ax	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneing8ax	IN	A	193.191.177.213
+
+
+subzonepheer5	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonepheer5	IN	A	193.191.177.213
+
+
+subzoneicee6v	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneicee6v	IN	A	193.191.177.213
+
+
+subzoneuemo9k	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneuemo9k	IN	A	193.191.177.213
+
+
+subzonehae1ph	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonehae1ph	IN	A	193.191.177.213
+
+
+subzoneeeri4a	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeeri4a	IN	A	193.191.177.213
+
+
+subzonedoe8ch	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonedoe8ch	IN	A	193.191.177.213
+
+
+subzonephei8u	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonephei8u	IN	A	193.191.177.213
+
+
+subzoneaw1azi	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneaw1azi	IN	A	193.191.177.213
+
+
+subzonereaj3r	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonereaj3r	IN	A	193.191.177.213
+
+
+subzonecha2um	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonecha2um	IN	A	193.191.177.213
+
+
+subzoneik5ee2	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneik5ee2	IN	A	193.191.177.213
+
+
+subzoneoulee5	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneoulee5	IN	A	193.191.177.213
+
+
+subzoneraw2iu	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneraw2iu	IN	A	193.191.177.213
+
+
+subzonezanu6c	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonezanu6c	IN	A	193.191.177.213
+
+
+subzoneieno6h	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneieno6h	IN	A	193.191.177.213
+
+
+subzonenahl4h	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonenahl4h	IN	A	193.191.177.213
+
+
+subzonebai0ee	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonebai0ee	IN	A	193.191.177.213
+
+
+subzoneein4az	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneein4az	IN	A	193.191.177.213
+
+
+subzonezoid4n	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonezoid4n	IN	A	193.191.177.213
+
+
+subzonephoo6a	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonephoo6a	IN	A	193.191.177.213
+
+
+subzonetho4ch	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonetho4ch	IN	A	193.191.177.213
+
+
+subzoneoph1ge	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneoph1ge	IN	A	193.191.177.213
+
+
+subzoneyu0jab	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneyu0jab	IN	A	193.191.177.213
+
+
+subzonebaib6o	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonebaib6o	IN	A	193.191.177.213
+
+
+subzoneedoh8i	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneedoh8i	IN	A	193.191.177.213
+
+
+subzoneyoli2e	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneyoli2e	IN	A	193.191.177.213
+
+
+subzoneyaht1k	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneyaht1k	IN	A	193.191.177.213
+
+
+subzoneai9oof	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneai9oof	IN	A	193.191.177.213
+
+
+subzonexeig0a	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonexeig0a	IN	A	193.191.177.213
+
+
+subzoneiko9ir	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneiko9ir	IN	A	193.191.177.213
+
+
+subzoneailoh9	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneailoh9	IN	A	193.191.177.213
+
+
+subzoneoodo6e	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneoodo6e	IN	A	193.191.177.213
+
+
+subzoneeen6ha	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneeen6ha	IN	A	193.191.177.213
+
+
+subzoneahd0ah	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneahd0ah	IN	A	193.191.177.213
+
+
+subzonepeesi1	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonepeesi1	IN	A	193.191.177.213
+
+
+subzoneuat3oh	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneuat3oh	IN	A	193.191.177.213
+
+
+subzoneaewee5	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneaewee5	IN	A	193.191.177.213
+
+
+subzoneucher3	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzoneucher3	IN	A	193.191.177.213
+
+
+subzonebo5ied	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonebo5ied	IN	A	193.191.177.213
+
+
+subzonetuth0g	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonetuth0g	IN	A	193.191.177.213
 
