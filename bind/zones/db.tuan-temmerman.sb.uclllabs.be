@@ -1,6 +1,6 @@
 $TTL    300
 @       IN      SOA     tuan-temmerman.sb.uclllabs.be. root.tuan-temmerman.sb.uclllabs.be. (
-                            840         ; Serial
+                            841         ; Serial
                              5M         ; Refresh
                              5M         ; Retry
                              5M         ; Expire
@@ -2037,4 +2037,8 @@ subzoneooyae7	IN	A	193.191.177.213
 
 subzoneua3ti6	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
 subzoneua3ti6	IN	A	193.191.177.213
+
+
+subzonejied7i	IN	NS	ns.tuan-temmerman.sb.uclllabs.be.
+subzonejied7i	IN	A	193.191.177.213
 
